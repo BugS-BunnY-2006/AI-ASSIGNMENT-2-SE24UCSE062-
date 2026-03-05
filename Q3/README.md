@@ -100,14 +100,6 @@ UCS expands the node with the **lowest path cost**.
 
 In this problem, every move costs **1**, so UCS behaves similar to BFS.
 
-## 6 Bidirectional Search
-
-Bidirectional search performs search **from the start state and goal state simultaneously** until both meet.
-
-Characteristics:
-
-* Faster for large problems
-* Reduces search depth to half
 
 # Performance Comparison
 
@@ -118,7 +110,7 @@ Characteristics:
 | DLS           | No           | No      | Low          |
 | IDDFS         | Yes          | Yes     | Moderate     |
 | UCS           | Yes          | Yes     | High         |
-| Bidirectional | Yes          | Yes     | Moderate     |
+
 
 
 # Conclusion
